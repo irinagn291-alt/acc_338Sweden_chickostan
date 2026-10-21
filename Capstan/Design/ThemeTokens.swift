@@ -251,6 +251,7 @@ struct CapstanScreen<Content: View>: View {
 
 #if canImport(UIKit)
 enum CapstanHaptic {
+    @MainActor
     static func commit() {
         UIImpactFeedbackGenerator(style: .medium).impactOccurred()
     }
