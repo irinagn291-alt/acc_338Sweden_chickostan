@@ -1,0 +1,1 @@
+First release of Chickostan. Name habits, pin one, and tick only that habit. Misses and refused ticks are kept without adding. Peel removes the latest tick or miss from today. Optional daily caps, a seven-day log, and lists of ticks, misses, refused ticks, and removed ticks are included.

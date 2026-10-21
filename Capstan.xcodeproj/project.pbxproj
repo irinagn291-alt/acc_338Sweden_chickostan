@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C40D257DBE9F1249E048D3B /* ThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A7800542FE375351E7510 /* ThemeTokens.swift */; };
+		1977276CB28A4CFDB86724C2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EB085DE1DE5113F893E4930A /* Alamofire */; };
+		1BB1324A95376C5CA9D3B3FE /* PinMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365244184709CC1066FB7909 /* PinMarkEvent.swift */; };
+		25508E84A2FFF1DA5DD02FBA /* MarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C388AE0BD9C6EEA265D2E9D /* MarkList.swift */; };
+		3F9836E53172A325B33F87F1 /* CapstanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DAADE49CA6FA2A4E30178A /* CapstanApp.swift */; };
+		44A698D480A522ACE061ECDC /* CapBandThreshold.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C2D2ACD430E28940FE9B5 /* CapBandThreshold.swift */; };
+		46D8ACB857C15CA440F3F8A8 /* ColumnRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E36D4EEBF67E4D2E5968C86 /* ColumnRecord.swift */; };
+		4C3E6B7FBD750038BBAFBA70 /* CapstanGridLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAFCC00621885FEC3E9B9 /* CapstanGridLayerView.swift */; };
+		4FD6B519622FE57F3E70436D /* VacantGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9445E14EAD18460A2F49424 /* VacantGrid.swift */; };
+		557CAF932B139BC53B5D2CA2 /* PeelMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFA6008E4C4F54B4953A2C /* PeelMarkView.swift */; };
+		637745DC0FF5F571C93E45F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4A8E131067D60F37D55D3 /* ContentView.swift */; };
+		6EF621E5127A317BFD74A53B /* HollowMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB4B0850356343EBB20D73 /* HollowMarkEvent.swift */; };
+		75E95E7FA474B03B7AA6FA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74FEF642AE0263A1A7E6A95 /* Assets.xcassets */; };
+		765E9F65CBE7BB22A25AED44 /* StrayMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67C88E24F4C3057B785D1C /* StrayMarkEvent.swift */; };
+		76AF979E8A99F1C6F8796798 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C20313E4CBF48D23BC292 /* DesignTokens.swift */; };
+		7704B4C81350E3B67E388C81 /* CapstanWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BA4EB540C9BA955AD76F977 /* CapstanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BFDD0FC095D2FE46D10301 /* CapstanTests.swift */; };
+		7D8B3E7DF3013CFD30D9AF55 /* GridRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13025391C1D2CA93782798D /* GridRootView.swift */; };
+		7FA39B97E05F288016E895CE /* TickMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0E974C87AF62377430663E /* TickMarkEvent.swift */; };
+		81145C68AA1E7EC879EB1BAC /* GridPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638E0FD4BE00C25515957B8 /* GridPresenter.swift */; };
+		8DC7C77F574F64B65C61C02B /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46FF3FB77B617397204CF8 /* DayKey.swift */; };
+		90DDDAC794D5EEFE4C21893B /* GridReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2238948641E12C70A2658DF /* GridReducer.swift */; };
+		93B7C42AD9ABCB03DAD78D13 /* LedgerLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE705FB00AD5973786C4063 /* LedgerLine.swift */; };
+		959CB1FEC7DCAD55D6BD795D /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C20313E4CBF48D23BC292 /* DesignTokens.swift */; };
+		98FA25BD70B020A7B432EBCE /* GridChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17921C61312E06E040AF373D /* GridChart.swift */; };
+		9B43FE7843DAB27FF11E34CF /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 9D85542974A009DA33776156 /* AppsFlyerLib-Static */; };
+		A036BACA6D009FA4C3C5811D /* StatsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B56DE192D289F3D9063D92 /* StatsSheetView.swift */; };
+		A231C91D1D073E830B26F172 /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8166C1D8322D99F976966058 /* DemoSeed.swift */; };
+		A3CC86B9C43F88B274AEA3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71485F36CDD87AC82D2DC7 /* AppDelegate.swift */; };
+		A3CFFBEE8C3374BB9BF10433 /* GridBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3FAF62E9668FDE49000332 /* GridBoard.swift */; };
+		A643EB4F26368333913298CE /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B21BF4172AF4542D7ACEFA /* APIConfig.swift */; };
+		A6F9EE07296D0E0DF3D974FB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1697927762041EB58DA5BDC2 /* OnboardingView.swift */; };
+		AF01D73A87DD5083E0E2BDDC /* ActionStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3016729FEED99990A11B9 /* ActionStripView.swift */; };
+		B040E5FC9389150C1D841405 /* HollowMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604FAB58BFCEDC494017BCB /* HollowMarkView.swift */; };
+		B6C00C547D7C914EF9DF79EA /* ReviewScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3CE6F1A26C70D3EC2A78FF /* ReviewScreenRouter.swift */; };
+		B80D1CB283952A088DC0E679 /* GridArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED8F2A80B0CADD1A58B0F6 /* GridArchive.swift */; };
+		BACBB2669CD57595072632ED /* TickMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5845CCE09187B137701B012 /* TickMarkView.swift */; };
+		BADF030ACE1A0F849DD8EE96 /* ColumnEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F593931AA6CCE1319872C5F /* ColumnEditorSheet.swift */; };
+		C206665DE4D1A69DAFF5F079 /* PeelMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF517DEDD223472A6E532FD3 /* PeelMarkEvent.swift */; };
+		C5891D7ED30C888D50AB1BFA /* CALayerReticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E825F105C9D9EA5840BD7BD /* CALayerReticleView.swift */; };
+		C700CA97F72C9FB8C5A16F4A /* CountersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB895EA65D9612A4B1F816 /* CountersView.swift */; };
+		D54FFCFC0FA0873FF0E7A6B4 /* ReticleLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F433B43C40421533101F5CA /* ReticleLock.swift */; };
+		DA268D3B1031EFEDB05ABEAC /* SettingsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB29328B037E4F8B2586DDF /* SettingsSheetView.swift */; };
+		DE17E026AE746E71989EB510 /* WeekSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D61A4CF0DE09E6441A701 /* WeekSpan.swift */; };
+		DE68B4C0F3A0B1423B6C7B7B /* GridFileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3D7F8879B1BC593C7027F /* GridFileStore.swift */; };
+		E0C44D4239F0221127EDEA19 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2134C541E81F0F29CC00C /* ReviewLaunch.swift */; };
+		E37AA19D96DE12F09F195026 /* DayTallySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38107451729D0466445C8E /* DayTallySnapshot.swift */; };
+		F1C77DA76CF21903B8B89A47 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2134C541E81F0F29CC00C /* ReviewLaunch.swift */; };
+		F410DB2D953B55E975A76625 /* CapBandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0626CF44C183E4D47AD766 /* CapBandView.swift */; };
+		F5D83E7EAC8D6178FE21ABFE /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC560404DACD0880540846F /* WatchRoot.swift */; };
+		FC1ECC55309EB53D6B83F5D7 /* StrayMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93910F2EF5328FEFC7299BD0 /* StrayMarkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B3EAF600D3EBCA287B60CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDCE0D91092E21CE6D6D027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941D1D84FFDB7C06E8EA46F4;
+			remoteInfo = CapstanWatch;
+		};
+		314C159E85633E6690B8EF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDCE0D91092E21CE6D6D027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C66182CDFACCDD9F4B4FCB;
+			remoteInfo = Capstan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA954DC75DCFE2998F5BA251 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7704B4C81350E3B67E388C81 /* CapstanWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		049C20313E4CBF48D23BC292 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		06BFDD0FC095D2FE46D10301 /* CapstanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstanTests.swift; sourceTree = "<group>"; };
+		0AB3D7F8879B1BC593C7027F /* GridFileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFileStore.swift; sourceTree = "<group>"; };
+		0CC4A8E131067D60F37D55D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F593931AA6CCE1319872C5F /* ColumnEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnEditorSheet.swift; sourceTree = "<group>"; };
+		1697927762041EB58DA5BDC2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		17921C61312E06E040AF373D /* GridChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridChart.swift; sourceTree = "<group>"; };
+		1A0626CF44C183E4D47AD766 /* CapBandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapBandView.swift; sourceTree = "<group>"; };
+		1F71485F36CDD87AC82D2DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		246A7800542FE375351E7510 /* ThemeTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTokens.swift; sourceTree = "<group>"; };
+		29DAADE49CA6FA2A4E30178A /* CapstanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstanApp.swift; sourceTree = "<group>"; };
+		2A13C1A29C9A42841BF31147 /* Capstan.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Capstan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B21BF4172AF4542D7ACEFA /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstanWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365244184709CC1066FB7909 /* PinMarkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinMarkEvent.swift; sourceTree = "<group>"; };
+		3ABFA6008E4C4F54B4953A2C /* PeelMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelMarkView.swift; sourceTree = "<group>"; };
+		4236E5BF6BA96F5CAB06AC9D /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Vendor/Alamofire; sourceTree = SOURCE_ROOT; };
+		4C388AE0BD9C6EEA265D2E9D /* MarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkList.swift; sourceTree = "<group>"; };
+		4E825F105C9D9EA5840BD7BD /* CALayerReticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerReticleView.swift; sourceTree = "<group>"; };
+		4FB29328B037E4F8B2586DDF /* SettingsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheetView.swift; sourceTree = "<group>"; };
+		5ABB895EA65D9612A4B1F816 /* CountersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountersView.swift; sourceTree = "<group>"; };
+		64B56DE192D289F3D9063D92 /* StatsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsSheetView.swift; sourceTree = "<group>"; };
+		6CE705FB00AD5973786C4063 /* LedgerLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerLine.swift; sourceTree = "<group>"; };
+		6E36D4EEBF67E4D2E5968C86 /* ColumnRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnRecord.swift; sourceTree = "<group>"; };
+		7B38107451729D0466445C8E /* DayTallySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTallySnapshot.swift; sourceTree = "<group>"; };
+		8166C1D8322D99F976966058 /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
+		8F433B43C40421533101F5CA /* ReticleLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReticleLock.swift; sourceTree = "<group>"; };
+		93910F2EF5328FEFC7299BD0 /* StrayMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrayMarkView.swift; sourceTree = "<group>"; };
+		9A6AAFCC00621885FEC3E9B9 /* CapstanGridLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstanGridLayerView.swift; sourceTree = "<group>"; };
+		A7ED8F2A80B0CADD1A58B0F6 /* GridArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridArchive.swift; sourceTree = "<group>"; };
+		AF3CE6F1A26C70D3EC2A78FF /* ReviewScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenRouter.swift; sourceTree = "<group>"; };
+		B604FAB58BFCEDC494017BCB /* HollowMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowMarkView.swift; sourceTree = "<group>"; };
+		BE2D61A4CF0DE09E6441A701 /* WeekSpan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSpan.swift; sourceTree = "<group>"; };
+		BEC560404DACD0880540846F /* WatchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRoot.swift; sourceTree = "<group>"; };
+		C13025391C1D2CA93782798D /* GridRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRootView.swift; sourceTree = "<group>"; };
+		C5845CCE09187B137701B012 /* TickMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkView.swift; sourceTree = "<group>"; };
+		C638E0FD4BE00C25515957B8 /* GridPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPresenter.swift; sourceTree = "<group>"; };
+		C74FEF642AE0263A1A7E6A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0E974C87AF62377430663E /* TickMarkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkEvent.swift; sourceTree = "<group>"; };
+		DF517DEDD223472A6E532FD3 /* PeelMarkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelMarkEvent.swift; sourceTree = "<group>"; };
+		E2F3016729FEED99990A11B9 /* ActionStripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionStripView.swift; sourceTree = "<group>"; };
+		EA9C2D2ACD430E28940FE9B5 /* CapBandThreshold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapBandThreshold.swift; sourceTree = "<group>"; };
+		EB91F31D8528B2A3D2EC7A37 /* CapstanTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CapstanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46FF3FB77B617397204CF8 /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		EE3FAF62E9668FDE49000332 /* GridBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoard.swift; sourceTree = "<group>"; };
+		F2238948641E12C70A2658DF /* GridReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridReducer.swift; sourceTree = "<group>"; };
+		F5B2134C541E81F0F29CC00C /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		F9445E14EAD18460A2F49424 /* VacantGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacantGrid.swift; sourceTree = "<group>"; };
+		FDEB4B0850356343EBB20D73 /* HollowMarkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowMarkEvent.swift; sourceTree = "<group>"; };
+		FE67C88E24F4C3057B785D1C /* StrayMarkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrayMarkEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B609E8F307347619D3BCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1977276CB28A4CFDB86724C2 /* Alamofire in Frameworks */,
+				9B43FE7843DAB27FF11E34CF /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F36E76AEDD57AA9436E6866 /* Column */ = {
+			isa = PBXGroup;
+			children = (
+				0F593931AA6CCE1319872C5F /* ColumnEditorSheet.swift */,
+				6E36D4EEBF67E4D2E5968C86 /* ColumnRecord.swift */,
+			);
+			path = Column;
+			sourceTree = "<group>";
+		};
+		1471198E027BECE4443BA0E6 = {
+			isa = PBXGroup;
+			children = (
+				832D0F62D322B23F8CBE39D9 /* Capstan */,
+				2A38330E70A55033D6079BD4 /* CapstanTests */,
+				8802C7D5635ADB915C5CB2B1 /* CapstanWatch */,
+				DEB0DFDCF1FCE46A0B954D67 /* Packages */,
+				EE76F6B919C8A2B10DDCCC91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21880853404FAE97AB7DA3A5 /* DayTally */ = {
+			isa = PBXGroup;
+			children = (
+				7B38107451729D0466445C8E /* DayTallySnapshot.swift */,
+				64B56DE192D289F3D9063D92 /* StatsSheetView.swift */,
+				BE2D61A4CF0DE09E6441A701 /* WeekSpan.swift */,
+			);
+			path = DayTally;
+			sourceTree = "<group>";
+		};
+		2A38330E70A55033D6079BD4 /* CapstanTests */ = {
+			isa = PBXGroup;
+			children = (
+				06BFDD0FC095D2FE46D10301 /* CapstanTests.swift */,
+			);
+			path = CapstanTests;
+			sourceTree = "<group>";
+		};
+		424EA8D2E69C64D2036A48AE /* TickMark */ = {
+			isa = PBXGroup;
+			children = (
+				DB0E974C87AF62377430663E /* TickMarkEvent.swift */,
+				C5845CCE09187B137701B012 /* TickMarkView.swift */,
+			);
+			path = TickMark;
+			sourceTree = "<group>";
+		};
+		5092C0CB87C7D5DE5FE4EEAD /* HollowMark */ = {
+			isa = PBXGroup;
+			children = (
+				FDEB4B0850356343EBB20D73 /* HollowMarkEvent.swift */,
+				B604FAB58BFCEDC494017BCB /* HollowMarkView.swift */,
+			);
+			path = HollowMark;
+			sourceTree = "<group>";
+		};
+		584A1A146CE4266CE814E65F /* PeelMark */ = {
+			isa = PBXGroup;
+			children = (
+				DF517DEDD223472A6E532FD3 /* PeelMarkEvent.swift */,
+				3ABFA6008E4C4F54B4953A2C /* PeelMarkView.swift */,
+			);
+			path = PeelMark;
+			sourceTree = "<group>";
+		};
+		615E884FBFCEC2EA417998CE /* Vacant */ = {
+			isa = PBXGroup;
+			children = (
+				F9445E14EAD18460A2F49424 /* VacantGrid.swift */,
+			);
+			path = Vacant;
+			sourceTree = "<group>";
+		};
+		7B651C1C0BB447FB0F0C726B /* CapBand */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3016729FEED99990A11B9 /* ActionStripView.swift */,
+				EA9C2D2ACD430E28940FE9B5 /* CapBandThreshold.swift */,
+				1A0626CF44C183E4D47AD766 /* CapBandView.swift */,
+			);
+			path = CapBand;
+			sourceTree = "<group>";
+		};
+		832D0F62D322B23F8CBE39D9 /* Capstan */ = {
+			isa = PBXGroup;
+			children = (
+				30B21BF4172AF4542D7ACEFA /* APIConfig.swift */,
+				1F71485F36CDD87AC82D2DC7 /* AppDelegate.swift */,
+				C74FEF642AE0263A1A7E6A95 /* Assets.xcassets */,
+				29DAADE49CA6FA2A4E30178A /* CapstanApp.swift */,
+				0CC4A8E131067D60F37D55D3 /* ContentView.swift */,
+				049C20313E4CBF48D23BC292 /* DesignTokens.swift */,
+				F5B2134C541E81F0F29CC00C /* ReviewLaunch.swift */,
+				AF3CE6F1A26C70D3EC2A78FF /* ReviewScreenRouter.swift */,
+				7B651C1C0BB447FB0F0C726B /* CapBand */,
+				0F36E76AEDD57AA9436E6866 /* Column */,
+				FD98A802FA9E7943240C7774 /* DayKey */,
+				21880853404FAE97AB7DA3A5 /* DayTally */,
+				DA77AE7E25C4303E618016AC /* Design */,
+				C163588E44B1D7901D2A4395 /* Grid */,
+				5092C0CB87C7D5DE5FE4EEAD /* HollowMark */,
+				584A1A146CE4266CE814E65F /* PeelMark */,
+				E4EAC121DBA0A49D3D4D529B /* PinMark */,
+				EA386E9D7EE6BA34DA59C1BE /* Reticle */,
+				D5AE4C4F1CB56F6A70B2AB4C /* StrayMark */,
+				424EA8D2E69C64D2036A48AE /* TickMark */,
+				615E884FBFCEC2EA417998CE /* Vacant */,
+			);
+			path = Capstan;
+			sourceTree = "<group>";
+		};
+		8802C7D5635ADB915C5CB2B1 /* CapstanWatch */ = {
+			isa = PBXGroup;
+			children = (
+				BEC560404DACD0880540846F /* WatchRoot.swift */,
+			);
+			path = CapstanWatch;
+			sourceTree = "<group>";
+		};
+		C163588E44B1D7901D2A4395 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AAFCC00621885FEC3E9B9 /* CapstanGridLayerView.swift */,
+				5ABB895EA65D9612A4B1F816 /* CountersView.swift */,
+				8166C1D8322D99F976966058 /* DemoSeed.swift */,
+				A7ED8F2A80B0CADD1A58B0F6 /* GridArchive.swift */,
+				EE3FAF62E9668FDE49000332 /* GridBoard.swift */,
+				17921C61312E06E040AF373D /* GridChart.swift */,
+				0AB3D7F8879B1BC593C7027F /* GridFileStore.swift */,
+				C638E0FD4BE00C25515957B8 /* GridPresenter.swift */,
+				F2238948641E12C70A2658DF /* GridReducer.swift */,
+				C13025391C1D2CA93782798D /* GridRootView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		D5AE4C4F1CB56F6A70B2AB4C /* StrayMark */ = {
+			isa = PBXGroup;
+			children = (
+				FE67C88E24F4C3057B785D1C /* StrayMarkEvent.swift */,
+				93910F2EF5328FEFC7299BD0 /* StrayMarkView.swift */,
+			);
+			path = StrayMark;
+			sourceTree = "<group>";
+		};
+		DA77AE7E25C4303E618016AC /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				6CE705FB00AD5973786C4063 /* LedgerLine.swift */,
+				4C388AE0BD9C6EEA265D2E9D /* MarkList.swift */,
+				1697927762041EB58DA5BDC2 /* OnboardingView.swift */,
+				4FB29328B037E4F8B2586DDF /* SettingsSheetView.swift */,
+				246A7800542FE375351E7510 /* ThemeTokens.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		DEB0DFDCF1FCE46A0B954D67 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4236E5BF6BA96F5CAB06AC9D /* Alamofire */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E4EAC121DBA0A49D3D4D529B /* PinMark */ = {
+			isa = PBXGroup;
+			children = (
+				365244184709CC1066FB7909 /* PinMarkEvent.swift */,
+			);
+			path = PinMark;
+			sourceTree = "<group>";
+		};
+		EA386E9D7EE6BA34DA59C1BE /* Reticle */ = {
+			isa = PBXGroup;
+			children = (
+				4E825F105C9D9EA5840BD7BD /* CALayerReticleView.swift */,
+				8F433B43C40421533101F5CA /* ReticleLock.swift */,
+			);
+			path = Reticle;
+			sourceTree = "<group>";
+		};
+		EE76F6B919C8A2B10DDCCC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A13C1A29C9A42841BF31147 /* Capstan.app */,
+				EB91F31D8528B2A3D2EC7A37 /* CapstanTests.xctest */,
+				329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD98A802FA9E7943240C7774 /* DayKey */ = {
+			isa = PBXGroup;
+			children = (
+				ED46FF3FB77B617397204CF8 /* DayKey.swift */,
+			);
+			path = DayKey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1935CCD39123F481DA781763 /* CapstanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565BB3E9238FE5399D5E7C51 /* Build configuration list for PBXNativeTarget "CapstanTests" */;
+			buildPhases = (
+				09E6D1BF9BB008AF6A41BB6E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8F074DDA9FF3DBC880907F /* PBXTargetDependency */,
+			);
+			name = CapstanTests;
+			packageProductDependencies = (
+			);
+			productName = CapstanTests;
+			productReference = EB91F31D8528B2A3D2EC7A37 /* CapstanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		941D1D84FFDB7C06E8EA46F4 /* CapstanWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E182238368B25053038A72C /* Build configuration list for PBXNativeTarget "CapstanWatch" */;
+			buildPhases = (
+				AB0A0746418175911DDFF3F1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapstanWatch;
+			packageProductDependencies = (
+			);
+			productName = CapstanWatch;
+			productReference = 329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C66182CDFACCDD9F4B4FCB /* Capstan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256343AF3D5D6C3642D6E933 /* Build configuration list for PBXNativeTarget "Capstan" */;
+			buildPhases = (
+				5CCF81DCDA8368106436F067 /* Sources */,
+				9BD02497200F615C43AB47FA /* Resources */,
+				54B609E8F307347619D3BCBE /* Frameworks */,
+				BA954DC75DCFE2998F5BA251 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4DE24D12284039079CC123 /* PBXTargetDependency */,
+			);
+			name = Capstan;
+			packageProductDependencies = (
+				EB085DE1DE5113F893E4930A /* Alamofire */,
+				9D85542974A009DA33776156 /* AppsFlyerLib-Static */,
+			);
+			productName = Capstan;
+			productReference = 2A13C1A29C9A42841BF31147 /* Capstan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDCE0D91092E21CE6D6D027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1935CCD39123F481DA781763 = {
+						ProvisioningStyle = Automatic;
+					};
+					941D1D84FFDB7C06E8EA46F4 = {
+						ProvisioningStyle = Automatic;
+					};
+					D2C66182CDFACCDD9F4B4FCB = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1DB878F7D260C47553B619A /* Build configuration list for PBXProject "Capstan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1471198E027BECE4443BA0E6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D2C2FA1A4A67C565E4150E69 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				299274E54BF6206BBBD5DB9B /* XCLocalSwiftPackageReference "Vendor/Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE76F6B919C8A2B10DDCCC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C66182CDFACCDD9F4B4FCB /* Capstan */,
+				941D1D84FFDB7C06E8EA46F4 /* CapstanWatch */,
+				1935CCD39123F481DA781763 /* CapstanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD02497200F615C43AB47FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E95E7FA474B03B7AA6FA7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E6D1BF9BB008AF6A41BB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA4EB540C9BA955AD76F977 /* CapstanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCF81DCDA8368106436F067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A643EB4F26368333913298CE /* APIConfig.swift in Sources */,
+				AF01D73A87DD5083E0E2BDDC /* ActionStripView.swift in Sources */,
+				A3CC86B9C43F88B274AEA3F2 /* AppDelegate.swift in Sources */,
+				C5891D7ED30C888D50AB1BFA /* CALayerReticleView.swift in Sources */,
+				44A698D480A522ACE061ECDC /* CapBandThreshold.swift in Sources */,
+				F410DB2D953B55E975A76625 /* CapBandView.swift in Sources */,
+				3F9836E53172A325B33F87F1 /* CapstanApp.swift in Sources */,
+				4C3E6B7FBD750038BBAFBA70 /* CapstanGridLayerView.swift in Sources */,
+				BADF030ACE1A0F849DD8EE96 /* ColumnEditorSheet.swift in Sources */,
+				46D8ACB857C15CA440F3F8A8 /* ColumnRecord.swift in Sources */,
+				637745DC0FF5F571C93E45F5 /* ContentView.swift in Sources */,
+				C700CA97F72C9FB8C5A16F4A /* CountersView.swift in Sources */,
+				8DC7C77F574F64B65C61C02B /* DayKey.swift in Sources */,
+				E37AA19D96DE12F09F195026 /* DayTallySnapshot.swift in Sources */,
+				A231C91D1D073E830B26F172 /* DemoSeed.swift in Sources */,
+				959CB1FEC7DCAD55D6BD795D /* DesignTokens.swift in Sources */,
+				B80D1CB283952A088DC0E679 /* GridArchive.swift in Sources */,
+				A3CFFBEE8C3374BB9BF10433 /* GridBoard.swift in Sources */,
+				98FA25BD70B020A7B432EBCE /* GridChart.swift in Sources */,
+				DE68B4C0F3A0B1423B6C7B7B /* GridFileStore.swift in Sources */,
+				81145C68AA1E7EC879EB1BAC /* GridPresenter.swift in Sources */,
+				90DDDAC794D5EEFE4C21893B /* GridReducer.swift in Sources */,
+				7D8B3E7DF3013CFD30D9AF55 /* GridRootView.swift in Sources */,
+				6EF621E5127A317BFD74A53B /* HollowMarkEvent.swift in Sources */,
+				B040E5FC9389150C1D841405 /* HollowMarkView.swift in Sources */,
+				93B7C42AD9ABCB03DAD78D13 /* LedgerLine.swift in Sources */,
+				25508E84A2FFF1DA5DD02FBA /* MarkList.swift in Sources */,
+				A6F9EE07296D0E0DF3D974FB /* OnboardingView.swift in Sources */,
+				C206665DE4D1A69DAFF5F079 /* PeelMarkEvent.swift in Sources */,
+				557CAF932B139BC53B5D2CA2 /* PeelMarkView.swift in Sources */,
+				1BB1324A95376C5CA9D3B3FE /* PinMarkEvent.swift in Sources */,
+				D54FFCFC0FA0873FF0E7A6B4 /* ReticleLock.swift in Sources */,
+				F1C77DA76CF21903B8B89A47 /* ReviewLaunch.swift in Sources */,
+				B6C00C547D7C914EF9DF79EA /* ReviewScreenRouter.swift in Sources */,
+				DA268D3B1031EFEDB05ABEAC /* SettingsSheetView.swift in Sources */,
+				A036BACA6D009FA4C3C5811D /* StatsSheetView.swift in Sources */,
+				765E9F65CBE7BB22A25AED44 /* StrayMarkEvent.swift in Sources */,
+				FC1ECC55309EB53D6B83F5D7 /* StrayMarkView.swift in Sources */,
+				0C40D257DBE9F1249E048D3B /* ThemeTokens.swift in Sources */,
+				7FA39B97E05F288016E895CE /* TickMarkEvent.swift in Sources */,
+				BACBB2669CD57595072632ED /* TickMarkView.swift in Sources */,
+				4FD6B519622FE57F3E70436D /* VacantGrid.swift in Sources */,
+				DE17E026AE746E71989EB510 /* WeekSpan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0A0746418175911DDFF3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AF979E8A99F1C6F8796798 /* DesignTokens.swift in Sources */,
+				E0C44D4239F0221127EDEA19 /* ReviewLaunch.swift in Sources */,
+				F5D83E7EAC8D6178FE21ABFE /* WatchRoot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E4DE24D12284039079CC123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941D1D84FFDB7C06E8EA46F4 /* CapstanWatch */;
+			targetProxy = 2B3EAF600D3EBCA287B60CC9 /* PBXContainerItemProxy */;
+		};
+		9D8F074DDA9FF3DBC880907F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C66182CDFACCDD9F4B4FCB /* Capstan */;
+			targetProxy = 314C159E85633E6690B8EF1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A2E717252C5398E9F6A2487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		771ABD8778AB08A4B02AA30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.capstan.grid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.watchkitapp;
+				PRODUCT_NAME = CapstanWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		7B2BDEF5C465337737C25EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		92D2696FF4369E895CE1F00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Capstan-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid;
+				PRODUCT_NAME = Capstan;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2DA8DC098E1674158F1A89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capstan";
+			};
+			name = Release;
+		};
+		CFEA667E7DF467CE6EDFB6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.capstan.grid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.watchkitapp;
+				PRODUCT_NAME = CapstanWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D83D266F1D6444BAE6E24206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Capstan-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid;
+				PRODUCT_NAME = Capstan;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE13DD0A56A32ECF8EAA1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capstan";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256343AF3D5D6C3642D6E933 /* Build configuration list for PBXNativeTarget "Capstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83D266F1D6444BAE6E24206 /* Debug */,
+				92D2696FF4369E895CE1F00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E182238368B25053038A72C /* Build configuration list for PBXNativeTarget "CapstanWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEA667E7DF467CE6EDFB6F3 /* Debug */,
+				771ABD8778AB08A4B02AA30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		565BB3E9238FE5399D5E7C51 /* Build configuration list for PBXNativeTarget "CapstanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE13DD0A56A32ECF8EAA1B79 /* Debug */,
+				A2DA8DC098E1674158F1A89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1DB878F7D260C47553B619A /* Build configuration list for PBXProject "Capstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2E717252C5398E9F6A2487 /* Debug */,
+				7B2BDEF5C465337737C25EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		299274E54BF6206BBBD5DB9B /* XCLocalSwiftPackageReference "Vendor/Alamofire" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/Alamofire;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2C2FA1A4A67C565E4150E69 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D85542974A009DA33776156 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2C2FA1A4A67C565E4150E69 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		EB085DE1DE5113F893E4930A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CDCE0D91092E21CE6D6D027 /* Project object */;
+}

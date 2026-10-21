@@ -1,0 +1,1 @@
+habit,counter,daily cap,pin,tick,peel,miss,log

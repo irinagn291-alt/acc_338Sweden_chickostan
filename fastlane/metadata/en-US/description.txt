@@ -1,0 +1,14 @@
+Chickostan is a habit counter for one person. You name habits, pin one of them, and add a tick only to the habit that is pinned.
+
+• Name habits and see today’s count on Today.
+• Pin one habit, then tick. A tick adds one and releases the pin.
+• A tick on any other habit is kept as a miss and does not add.
+• A tick before a pin is refused and does not change a count.
+• Peel drops the latest tick or miss from today.
+• Set an optional daily cap. The count can still go over it.
+• Open Log for a seven-day chart and lists of ticks, misses, refused ticks, removed ticks, and closed days.
+• Rename or delete a habit, reset today, or erase all data.
+• Show the introduction again from Settings.
+• Contact and support opens the support page.
+
+Counts stay on this device.
