@@ -628,9 +628,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.capstan.grid;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.watchkitapp;
 				PRODUCT_NAME = CapstanWatch;
 				SDKROOT = watchos;
@@ -756,9 +758,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.capstan.grid;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.watchkitapp;
 				PRODUCT_NAME = CapstanWatch;
 				SDKROOT = watchos;
