@@ -9,7 +9,6 @@ options:
   bundleIdPrefix: com.capstan
   deploymentTarget:
     iOS: '17.0'
-    watchOS: '26.0'
   createIntermediateGroups: true
 settings:
   base:
@@ -23,8 +22,6 @@ targets:
     sources:
     - path: Capstan
     dependencies:
-    - target: CapstanWatch
-      embed: true
     - package: Alamofire
     - package: AppsFlyerLib
       product: AppsFlyerLib-Static
@@ -52,26 +49,6 @@ targets:
         SWIFT_STRICT_CONCURRENCY: complete
         CODE_SIGN_STYLE: Automatic
         INFOPLIST_FILE: Support/Capstan-Info.plist
-  CapstanWatch:
-    type: application
-    platform: watchOS
-    sources:
-    - path: Capstan/ReviewLaunch.swift
-    - path: Capstan/DesignTokens.swift
-    - path: CapstanWatch
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.capstan.grid.watchkitapp
-        PRODUCT_NAME: CapstanWatch
-        GENERATE_INFOPLIST_FILE: 'YES'
-        INFOPLIST_KEY_CFBundleDisplayName: Chickostan
-        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: com.capstan.grid
-        CURRENT_PROJECT_VERSION: 1
-        MARKETING_VERSION: 1.0.0
-        WATCHOS_DEPLOYMENT_TARGET: '26.0'
-        TARGETED_DEVICE_FAMILY: '4'
-        SWIFT_STRICT_CONCURRENCY: complete
-        CODE_SIGN_STYLE: Automatic
   CapstanTests:
     type: bundle.unit-test
     platform: iOS
@@ -99,7 +76,3 @@ schemes:
     test:
       targets:
       - CapstanTests
-  CapstanWatch:
-    build:
-      targets:
-        CapstanWatch: all

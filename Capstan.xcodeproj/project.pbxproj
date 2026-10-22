@@ -21,8 +21,6 @@
 		6EF621E5127A317BFD74A53B /* HollowMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB4B0850356343EBB20D73 /* HollowMarkEvent.swift */; };
 		75E95E7FA474B03B7AA6FA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74FEF642AE0263A1A7E6A95 /* Assets.xcassets */; };
 		765E9F65CBE7BB22A25AED44 /* StrayMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67C88E24F4C3057B785D1C /* StrayMarkEvent.swift */; };
-		76AF979E8A99F1C6F8796798 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C20313E4CBF48D23BC292 /* DesignTokens.swift */; };
-		7704B4C81350E3B67E388C81 /* CapstanWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7BA4EB540C9BA955AD76F977 /* CapstanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BFDD0FC095D2FE46D10301 /* CapstanTests.swift */; };
 		7D8B3E7DF3013CFD30D9AF55 /* GridRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13025391C1D2CA93782798D /* GridRootView.swift */; };
 		7FA39B97E05F288016E895CE /* TickMarkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0E974C87AF62377430663E /* TickMarkEvent.swift */; };
@@ -52,22 +50,13 @@
 		DA268D3B1031EFEDB05ABEAC /* SettingsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB29328B037E4F8B2586DDF /* SettingsSheetView.swift */; };
 		DE17E026AE746E71989EB510 /* WeekSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D61A4CF0DE09E6441A701 /* WeekSpan.swift */; };
 		DE68B4C0F3A0B1423B6C7B7B /* GridFileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3D7F8879B1BC593C7027F /* GridFileStore.swift */; };
-		E0C44D4239F0221127EDEA19 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2134C541E81F0F29CC00C /* ReviewLaunch.swift */; };
 		E37AA19D96DE12F09F195026 /* DayTallySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38107451729D0466445C8E /* DayTallySnapshot.swift */; };
 		F1C77DA76CF21903B8B89A47 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2134C541E81F0F29CC00C /* ReviewLaunch.swift */; };
 		F410DB2D953B55E975A76625 /* CapBandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0626CF44C183E4D47AD766 /* CapBandView.swift */; };
-		F5D83E7EAC8D6178FE21ABFE /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC560404DACD0880540846F /* WatchRoot.swift */; };
 		FC1ECC55309EB53D6B83F5D7 /* StrayMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93910F2EF5328FEFC7299BD0 /* StrayMarkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B3EAF600D3EBCA287B60CC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CDCE0D91092E21CE6D6D027 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 941D1D84FFDB7C06E8EA46F4;
-			remoteInfo = CapstanWatch;
-		};
 		314C159E85633E6690B8EF1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3CDCE0D91092E21CE6D6D027 /* Project object */;
@@ -76,20 +65,6 @@
 			remoteInfo = Capstan;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		BA954DC75DCFE2998F5BA251 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				7704B4C81350E3B67E388C81 /* CapstanWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		049C20313E4CBF48D23BC292 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
@@ -105,7 +80,6 @@
 		29DAADE49CA6FA2A4E30178A /* CapstanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstanApp.swift; sourceTree = "<group>"; };
 		2A13C1A29C9A42841BF31147 /* Capstan.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Capstan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B21BF4172AF4542D7ACEFA /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
-		329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstanWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		365244184709CC1066FB7909 /* PinMarkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinMarkEvent.swift; sourceTree = "<group>"; };
 		3ABFA6008E4C4F54B4953A2C /* PeelMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelMarkView.swift; sourceTree = "<group>"; };
 		4236E5BF6BA96F5CAB06AC9D /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Vendor/Alamofire; sourceTree = SOURCE_ROOT; };
@@ -125,7 +99,6 @@
 		AF3CE6F1A26C70D3EC2A78FF /* ReviewScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenRouter.swift; sourceTree = "<group>"; };
 		B604FAB58BFCEDC494017BCB /* HollowMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowMarkView.swift; sourceTree = "<group>"; };
 		BE2D61A4CF0DE09E6441A701 /* WeekSpan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSpan.swift; sourceTree = "<group>"; };
-		BEC560404DACD0880540846F /* WatchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRoot.swift; sourceTree = "<group>"; };
 		C13025391C1D2CA93782798D /* GridRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRootView.swift; sourceTree = "<group>"; };
 		C5845CCE09187B137701B012 /* TickMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMarkView.swift; sourceTree = "<group>"; };
 		C638E0FD4BE00C25515957B8 /* GridPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPresenter.swift; sourceTree = "<group>"; };
@@ -171,7 +144,6 @@
 			children = (
 				832D0F62D322B23F8CBE39D9 /* Capstan */,
 				2A38330E70A55033D6079BD4 /* CapstanTests */,
-				8802C7D5635ADB915C5CB2B1 /* CapstanWatch */,
 				DEB0DFDCF1FCE46A0B954D67 /* Packages */,
 				EE76F6B919C8A2B10DDCCC91 /* Products */,
 			);
@@ -268,14 +240,6 @@
 			path = Capstan;
 			sourceTree = "<group>";
 		};
-		8802C7D5635ADB915C5CB2B1 /* CapstanWatch */ = {
-			isa = PBXGroup;
-			children = (
-				BEC560404DACD0880540846F /* WatchRoot.swift */,
-			);
-			path = CapstanWatch;
-			sourceTree = "<group>";
-		};
 		C163588E44B1D7901D2A4395 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,7 +308,6 @@
 			children = (
 				2A13C1A29C9A42841BF31147 /* Capstan.app */,
 				EB91F31D8528B2A3D2EC7A37 /* CapstanTests.xctest */,
-				329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -378,23 +341,6 @@
 			productReference = EB91F31D8528B2A3D2EC7A37 /* CapstanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		941D1D84FFDB7C06E8EA46F4 /* CapstanWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E182238368B25053038A72C /* Build configuration list for PBXNativeTarget "CapstanWatch" */;
-			buildPhases = (
-				AB0A0746418175911DDFF3F1 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CapstanWatch;
-			packageProductDependencies = (
-			);
-			productName = CapstanWatch;
-			productReference = 329BED5CB49DE1AA1A646C9B /* CapstanWatch.app */;
-			productType = "com.apple.product-type.application";
-		};
 		D2C66182CDFACCDD9F4B4FCB /* Capstan */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 256343AF3D5D6C3642D6E933 /* Build configuration list for PBXNativeTarget "Capstan" */;
@@ -402,12 +348,10 @@
 				5CCF81DCDA8368106436F067 /* Sources */,
 				9BD02497200F615C43AB47FA /* Resources */,
 				54B609E8F307347619D3BCBE /* Frameworks */,
-				BA954DC75DCFE2998F5BA251 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E4DE24D12284039079CC123 /* PBXTargetDependency */,
 			);
 			name = Capstan;
 			packageProductDependencies = (
@@ -428,9 +372,6 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					1935CCD39123F481DA781763 = {
-						ProvisioningStyle = Automatic;
-					};
-					941D1D84FFDB7C06E8EA46F4 = {
 						ProvisioningStyle = Automatic;
 					};
 					D2C66182CDFACCDD9F4B4FCB = {
@@ -457,7 +398,6 @@
 			projectRoot = "";
 			targets = (
 				D2C66182CDFACCDD9F4B4FCB /* Capstan */,
-				941D1D84FFDB7C06E8EA46F4 /* CapstanWatch */,
 				1935CCD39123F481DA781763 /* CapstanTests */,
 			);
 		};
@@ -533,24 +473,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB0A0746418175911DDFF3F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76AF979E8A99F1C6F8796798 /* DesignTokens.swift in Sources */,
-				E0C44D4239F0221127EDEA19 /* ReviewLaunch.swift in Sources */,
-				F5D83E7EAC8D6178FE21ABFE /* WatchRoot.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E4DE24D12284039079CC123 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 941D1D84FFDB7C06E8EA46F4 /* CapstanWatch */;
-			targetProxy = 2B3EAF600D3EBCA287B60CC9 /* PBXContainerItemProxy */;
-		};
 		9D8F074DDA9FF3DBC880907F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2C66182CDFACCDD9F4B4FCB /* Capstan */;
@@ -615,33 +540,13 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.2;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
-		};
-		771ABD8778AB08A4B02AA30B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.capstan.grid;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.watchkitapp;
-				PRODUCT_NAME = CapstanWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_STRICT_CONCURRENCY = complete;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
-			};
-			name = Release;
 		};
 		7B2BDEF5C465337737C25EAC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -692,11 +597,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.2;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
@@ -752,26 +657,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capstan";
 			};
 			name = Release;
-		};
-		CFEA667E7DF467CE6EDFB6F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Chickostan;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.capstan.grid;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.capstan.grid.watchkitapp;
-				PRODUCT_NAME = CapstanWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_STRICT_CONCURRENCY = complete;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
-			};
-			name = Debug;
 		};
 		D83D266F1D6444BAE6E24206 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -834,15 +719,6 @@
 			buildConfigurations = (
 				D83D266F1D6444BAE6E24206 /* Debug */,
 				92D2696FF4369E895CE1F00C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		4E182238368B25053038A72C /* Build configuration list for PBXNativeTarget "CapstanWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFEA667E7DF467CE6EDFB6F3 /* Debug */,
-				771ABD8778AB08A4B02AA30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
